@@ -1,2 +1,16 @@
-Presentación:
+Descripción del proyecto:
+
+Se propone analizar, diseñar y construir una aplicación software que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
+
+Presentación Paula Calderón:
+Mi nombre es Paula Andrea Calderón Lesmes, soy estudiante de Ingeniería Mecatrónica, actualmente terminando mi proyecto de grado, tengo 26 años y vivo en Bogotá.
+
+Presentación Camilo Rodríguez:
+Mi nombre es Camilo Andrés Rodríguez Rodríguez, soy Matemático y tengo una maestría en Matemáticas. Actualmente estoy aprendiendo sobre programación y Ciencia de Datos.
+Tengo 25 años y no me gusta el queso. 
+
+Presentación de Diego Arturo Niño:
+Soy matemático, egresado de la Universidad Nacional de Colombia, sede Bogotá. Actualmente, vivo en Bogotá. 
+
+Presentación de Juan Bonilla:
 Hola, mi nombre es Juan Bonilla, soy estudiante de geografia de la Universidad Nacional de Colombia, vivo en Bogotá, y me gusta el aprendizaje constante tanto de lenguajes humanos como de programacion.

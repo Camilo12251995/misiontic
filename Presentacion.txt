@@ -1,0 +1,4 @@
+Proyecto: Equipo RUNTIME TERROR
+Se propone analizar, diseñar y construir una aplicación software que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
+Presentación:
+Hola, mi nombre es Juan Bonilla, soy estudiante de geografia de la Universidad Nacional de Colombia, vivo en Bogotá, y me gusta el aprendizaje constante tanto de lenguajes humanos como de programacion.
