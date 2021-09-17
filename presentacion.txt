@@ -1,5 +1,3 @@
-Se propone analizar, diseñar y construir una aplicación software que permita controlar las ventas físicas y virtuales de una empresa de manufactura,
-y hacerles el correspondiente seguimiento.
 Mi nombre es Luis Felipe Meléndez Muñoz
 Profesión Ingeniero Industrial, Especialista y Maestría en Logística 
 Vivo en Bogotá
