@@ -1,0 +1,4 @@
+Descripción del proyecto:
+Se propone analizar, diseñar y construir una aplicación software que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
+Presentación Paula Calderón:
+Mi nombre es Paula Andrea Calderón Lesmes, soy estudiante de Ingeniería Mecatrónica, actualmente terminando mi proyecto de grado, tengo 26 años y vivo en Bogotá.
