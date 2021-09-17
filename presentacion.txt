@@ -12,4 +12,5 @@ Tengo 25 años y no me gusta el queso.
 Presentación de Diego Arturo Niño:
 Soy matemático, egresado de la Universidad Nacional de Colombia, sede Bogotá. Actualmente, vivo en Bogotá. 
 
-
+Presentación de Juan Bonilla:
+Hola, mi nombre es Juan Bonilla, soy estudiante de geografia de la Universidad Nacional de Colombia, vivo en Bogotá, y me gusta el aprendizaje constante tanto de lenguajes humanos como de programacion.
