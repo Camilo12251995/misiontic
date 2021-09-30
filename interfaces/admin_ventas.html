@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administrador de ventas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body style="background-color: #e7f0d8"> 
+  <nav class="navbar navbar-light" style="background-color: #c4da9c;">
+  
+    <div class="container" id="navbar_container">
+      <!-- Imagen lobo -->
+      <div class="row">
+        <div class="col-md-2"> 
+          <img src="assets/img/wolf.png" width="40" height="40" alt=".." href="#">
+        </div>
+        <!-- Titulo Runtime -->
+        <div class="col-md-3" id="navbar_titulo">
+          <a class="navbar-brand" href="#"> &nbsp; Runtime Terror</a>
+        </div>
+      </div>
+      
+      <!-- ROL -->
+      <div class="row">
+        <div class="col-4" id="alinear-name">
+        <a> Pepe&nbsp;Perez&nbsp;/<b>Administrador</b></a>
+        </div>
+      </div>
+      <!-- Foto de usuario -->
+      <div class="row">
+        <div class="col-2">
+        <img src="assets/img/imagen-perfil.jpeg" width="40" height="40" alt=".." href="#">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="cabecero">
+      <!-- <img id="img-profile" src="assets/img/imagen-perfil.jpeg" />  -->
+      &nbsp;&nbsp;&nbsp;Administrador de ventas&nbsp;&nbsp;&nbsp;
+  </div>
+
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="false" aria-controls="collapseOne">
+          Agregar nueva venta
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <!-- <strong>Formulario para agregar nuevos vendedores</strong> -->
+          <form class="row g-3" action="">
+            <div class="col-md-3">
+              <label for="text" class="form-label">ID de Vendedor</label>
+              <input type="text" class="form-control" id="IDvendedor" placeholder="ID del vendedor">
+            </div>
+
+            <div class="col-md-3">
+              <label for="text" class="form-label">Nombre de Cliente</label>
+              <input type="text" class="form-control" id="Nombre_cliente" placeholder="Nombre del cliente">
+            </div>
+
+            <div class="col-md-2">
+              <label for="text" class="form-label">Fecha de venta</label>
+              <select id="inputDia" class="form-select">
+                <datalist id="cursos">
+                  <option selected>Día</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </datalist>
+              </select>
+            </div>
+
+            <div class="col-md-2">
+              <label for="text" class="form-label">Mes </label>
+              <select id="inputMes" class="form-select">
+                <datalist id="cursos">
+                  <option selected>Mes</option>
+                  <option value="Enero">Enero</option>
+                  <option value="Febrero">Febrero</option>
+                  <option value="Marzo">Marzo</option>
+                  <option value="Abril">Abril</option>
+                  <option value="Mayo">Mayo</option>
+                  <option value="Junio">Junio</option>
+                  <option value="Julio">Julio</option>
+                  <option value="Agosto">Agosto</option>
+                  <option value="Septiembre">Septiembre</option>
+                  <option value="Octubre">Octubre</option>
+                  <option value="Noviembre">Noviembre</option>
+                  <option value="Diciembre">Diciembre</option>
+                </datalist>
+              </select>
+            </div>
+
+            <div class="col-md-2">
+              <label for="text" class="form-label">Año</label>
+              <select id="inputMes" class="form-select">
+                <datalist id="cursos">
+                  <option selected>Año</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+
+                </datalist>
+              </select>
+            </div>
+
+
+
+
+
+            <div class="col-md-6">
+              <label for="text" class="form-label">ID de la venta</label>
+              <input type="text" class="form-control" id="idventa" placeholder="ID venta">
+            </div>
+
+            <div class="col-md-6">
+              <label for="number" class="form-label">Número de productos diferentes</label>
+              <input type="number" class="form-control" placeholder="Número de productos distintos">
+            </div>
+
+
+
+
+
+            <div class="col-md-6">
+              <label for="text" class="form-label">Producto 1</label>
+              <input type="text" class="form-control" id="producto1" placeholder="Producto">
+            </div>
+
+            <div class="col-md-6">
+              <label for="number" class="form-label">Cantidad</label>
+              <input type="number" class="form-control" placeholder="Cantidad de unidades">
+            </div>
+
+            <div class="col-md-6">
+              <label for="text" class="form-label">Producto 2</label>
+              <input type="text" class="form-control" id="producto2" placeholder="Producto">
+            </div>
+
+            <div class="col-md-6">
+              <label for="number" class="form-label">Cantidad</label>
+              <input type="number" class="form-control" placeholder="Cantidad de unidades">
+            </div>
+
+
+            <div class="col-md-6">
+              <label for="text" class="form-label">Producto 3</label>
+              <input type="text" class="form-control" id="producto3" placeholder="Producto">
+            </div>
+
+            <div class="col-md-6">
+              <label for="number" class="form-label">Cantidad</label>
+              <input type="number" class="form-control" placeholder="Cantidad de unidades">
+            </div>
+
+
+
+
+
+
+            <div class="col-12">
+              <label for="text" class="form-label">Valor Total Venta</label>
+              <input type="text" class="form-control" id="valortotalventa" placeholder="Valor Total Venta">
+            </div>
+
+            <!--             <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div> -->
+            <!--             <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div> -->
+
+
+
+
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Consultar ventas anteriores
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+
+
+          <form class="row g-3" action="">
+
+            <div class="col-md-2">
+              <label for="text" class="form-label">Filtrar por:</label>
+              <select id="inputMes" class="form-select">
+                <datalist id="cursos">
+                  <option selected>Seleccione una opción</option>
+                  <option value="ID_venta">ID venta</option>
+                  <option value="ID_vendedor">ID vendedor</option>
+                  <option value="2017">Fecha de venta</option>
+                  <option value="2018">Nombre cliente</option>
+                </datalist>
+              </select>
+            </div>
+
+            <div class="col-md-4">
+              <label for="text" class="form-label">Digite la información:</label>
+              <input type="text" class="form-control" id="producto1">
+            </div>
+            <div class="col-md-4" id="boton-filtro" align="bottom">
+              <a href="#" class="btn btn-primary">Filtrar</a>
+            </div>
+          </form>
+
+
+
+          <table class="table table-hover">
+            <thead class="table-green-titles">
+              <tr>
+                <th scope="col">ID-Venta</th>
+                <th scope="col">ID-Vendedor</th>
+                <th scope="col">Nombre Vendedor</th>
+                <th scope="col">Nombre Cliente</th>
+                <!--  <th scope="col">Cantidad de Productos</th> -->
+                <th scope="col">Valor Total</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Modificar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">32145</th>
+                <td>342423423423</td>
+                <td>Kumma Boy</td>
+                <td>Monkey D. Luffy</td>
+                <!-- <td>3</td> -->
+                <td>3000000</td>
+                <td>Agosto 21, 2020</td>
+                <td><a href="https://www.youtube.com/watch?v=4G0uhL6W2_k&ab_channel=MichaelLyrics"
+                    target="_blank">Modificar</a></td>
+              </tr>
+              <tr class="table-green-content">
+                <th scope="row">484895</th>
+                <td>342423423423</td>
+                <td>Kumma Boy</td>
+                <td>Lionel Messi</td>
+                <!-- <td>5</td> -->
+                <td>6000</td>
+                <td>Agosto 29, 2020</td>
+                <td><a href="https://www.youtube.com/watch?v=4G0uhL6W2_k&ab_channel=MichaelLyrics"
+                    target="_blank">Modificar</a></td>
+              </tr>
+              <tr>
+                <th scope="row">48489567</th>
+                <td>45353534534534</td>
+                <td>Arthur The King</td>
+                <td>N'Golo Kanté</td>
+                <!-- <td>9</td> -->
+                <td>9000</td>
+                <td>Septiembre 29, 2020</td>
+                <td><a href="https://www.youtube.com/watch?v=4G0uhL6W2_k&ab_channel=MichaelLyrics"
+                    target="_blank">Modificar</a></td>
+              </tr>
+            </tbody>
+          </table>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+#navbarhome{
+    color: #c4da9c;
+}
+
+.btn-primary{
+    color: black;
+    background-color: #8fb943;
+    border-color: #2e3b15;
+} 
+.btn-primary:hover{color:black;background-color:#81a73d;border-color:#2e3b15}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus{color:black;background-color:#607d2d;border-color:#2e3b15;
+    box-shadow:0 0 0 .25rem #a8c96c}
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,.show>.btn-primary
+.dropdown-toggle{color:black;background-color:#455920;border-color:#2e3b15}
+.btn-check:active+
+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,.show>
+.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .25rem #bdd690}
+.btn-primary.disabled,
+.btn-primary:disabled{color:black;background-color:#bdd690;border-color:#2e3b15} 
+
+
+
+.accordion-button{
+    background-color: #fff;
+    color: black;
+    border-color:#000000;
+}
+.accordion-item{
+    background-color: #fff;
+}
+.accordion-button:not(.collapsed){
+    background-color: #a8c96c;
+    color: black;
+}
+.accordion-button:hover{
+    background-color:#9dc25a ;
+}
+.accordion-button:focus{z-index:3;border-color:#000000;outline:0;box-shadow:0 0 0 .25rem #b9d48a}
+
+#boton-filtro{
+/*     position: absolute;
+    right:    0px;
+    bottom:   0px;
+} */
+padding-top: 32px;
+}
+
+#wolf_logo{
+    size: 1mm;
+}
+
+#navbar_container{
+    margin-left: 0px;
+}
+
+#navbar_titulo{
+    margin-top: 5px;
+    font: oblique;
+    font-weight: bold;
+}
+
+.form-control:focus{color:#212529;background-color:#fff;border-color:black;outline:0;box-shadow:0 0 0 .25rem #c8dda2}
+
+.form-select:valid:focus{border-color:black;box-shadow:0 0 0 .25rem #c8dda2}
+/* .form-select:focus{border-color:#86b7fe;outline:0;box-shadow:0 0 0 .25rem rgba(13,110,253,.25)} */
+/* .form-check-input:focus{border-color:#86b7fe;outline:0;box-shadow:0 0 0 .25rem crimson} */
+/* .form-check-input:checked{background-color:crimson;border-color:crimson} */
+
+.title_section{
+    height: 40px;
+}
+
+#cabecero{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color:#7ca13b;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+/*     font-family: 'Lucida Sans'; */
+    font: oblique;
+}
+
+#img-profile{
+    width: 10%;
+}
+
+.table-green-titles{
+    background-color: #7ca13b;
+    color: #f9fbf6;
+}
+
+.table-green-content{
+    background-color: #cbdfa8;
+
+}
